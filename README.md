@@ -1,8 +1,5 @@
 # [PromptHub]
 
-**Welcome to our Workshop**, clone this repository to follow along.
-
-
 ## Tech Stack
 
 - **Next.js 13**
