@@ -1,4 +1,4 @@
-# [PromptHub]
+# [EgyPromptHub]
 
 ## Tech Stack
 
@@ -12,8 +12,8 @@ To get started with PromptHub, follow these steps:
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/your-username/PromptHub.git
-   cd PromptHub
+   git clone https://github.com/your-username/EgyPromptHub.git
+   cd EgyPromptHub
    ```
 2. **Install Dependencies:**
    ```bash
