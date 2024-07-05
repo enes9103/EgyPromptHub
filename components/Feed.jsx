@@ -22,6 +22,7 @@ const Feed = () => {
     const data = await response.json();
     setPrompts(data);
   };
+  
   useEffect(() => {
     console.log("test");
     getPrompts();
@@ -30,12 +31,14 @@ const Feed = () => {
   const handleSearchChange = (e) => {
     setSearch(e.target.value);
   };
+  
   const getFilteredPrompts = async () => {
     const response = await fetch(`/api/prompt/filterPrompt/${search}`);
     const data = await response.json();
 
     setPrompts(data);
   };
+  
   useEffect(() => {
     if (search?.length > 0) {
       const timeOut = setTimeout(() => {
@@ -46,9 +49,11 @@ const Feed = () => {
       getPrompts();
     }
   }, [search]);
+  
   const handleTagClick = (tag) => {
     setSearch(tag);
   };
+  
   return (
     <section className="feed">
       <form
