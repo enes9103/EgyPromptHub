@@ -8,7 +8,7 @@ export const PromptCardList = ({
   handleEdit,
   handleDelete,
 }) => {
-  console.log(prompts, "prompts");
+
   return (
     <div className="mt-16 prompt_layout">
       {prompts?.map((prompt) => (
